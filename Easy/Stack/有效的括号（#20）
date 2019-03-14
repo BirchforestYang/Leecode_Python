@@ -1,4 +1,4 @@
-第一个想法：通过map和stack来解决
+第一个想法：通过dict和stack来解决
 class Solution:
     def isValid(self, s: str) -> bool:
         match = {'}': '{', ']': '[', ')': '('}
